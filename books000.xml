@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<bookstore>Saraiva<preco>Caro<data>04/02/2008</data></preco></bookstore>
+<bookstore>Nobel<hist>Longa tradicao</hist></bookstore>
+<bookstore>Cultura<preco>Caro</preco></bookstore>
+<bookstore>Tempo Real<perfil>TI</perfil></bookstore>
+<bookstore>FNAC<controle>frances</controle><cafe>Sim</cafe></bookstore>
+<resenha>Bom modo de se avaliar<data>19/12/2014</data></resenha>
+</root>

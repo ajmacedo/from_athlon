@@ -1,0 +1,36 @@
+
+
+Letra L:
+========
+<a id="ctl00_contentPlaceHolderConteudo_lnkLetraL" class="letra" href="javascript:__doPostBack('ctl00$contentPlaceHolderConteudo$lnkLetraL','')">L</a>
+
+Botão:
+======
+<input type="submit" name="ctl00$contentPlaceHolderConteudo$btnBuscarEmpresa" value="Buscar" id="ctl00_contentPlaceHolderConteudo_btnBuscarEmpresa" class="botaoFuncao03">
+
+
+PDF:
+====
+<a href="download/DBTCER9999_v2.pdf" target="_blank">
+                        Layout do Arquivo</a>
+
+O que me interessa:
+===================
+<a id="ctl00_contentPlaceHolderConteudo_lnkDownloadArquivo" href="javascript:__doPostBack('ctl00$contentPlaceHolderConteudo$lnkDownloadArquivo','')">Empréstimos Registrados - BTC</a>
+
+
+O script [CDATA]:
+
+<script>
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+</script>

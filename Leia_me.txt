@@ -1,0 +1,5 @@
+
+Aqui estão os PHP-Scripts a serem chamados da linha de comando para posterior
+adequação em bash e cronotab.
+
+Já tive sucesso em Fixed Target, agora é tentar os demais.
