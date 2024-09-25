@@ -5,7 +5,7 @@
     //$url  = '';
 
     //$url='http://www.bmfbovespa.com.br/BancoTitulosBTC/download/DBTCER9999_v2.pdf'; 
-    //Tentativa ousada
+    //Tentativa ousada pois eu iria gravar direto no samba
     $url='http://www.bmfbovespa.com.br/BancoTitulosBTC/EmprestimoRegistrado.aspx?Idioma=pt-br';
     $path = '/srv/samba/share/Projects/PHP/WIN32/Downloads/tst001.txt';
  
